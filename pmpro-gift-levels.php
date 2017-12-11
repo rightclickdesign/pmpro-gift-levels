@@ -47,6 +47,21 @@ Author URI: http://www.strangerstudios.com
 		)
 	);
 */
+global $pmprogl_gift_levels;
+$pmprogl_gift_levels = array(
+	2 => array(
+		'level_id' => 1,
+		'initial_payment' => '', 
+		'billing_amount' => '', 
+		'cycle_number' => '', 
+		'cycle_period' => '', 
+		'billing_limit' => '', 
+		'trial_amount' => '', 
+		'trial_limit' => '', 
+		'expiration_number' => 6, 
+		'expiration_period' => 'Month'
+	)
+);
 
 /*
 	These levels will require a gift code.
